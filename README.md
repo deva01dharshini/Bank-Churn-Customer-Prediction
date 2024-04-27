@@ -4,20 +4,20 @@ Build a machine learning model to identify and predict customers who are likely 
 Tool Used: Python, Google colab
 ## Dataset:
 Dataset is taken from Kaggeles "Bank Turnover Dataset". Dataset contains 10000 different datas with 14 features.
-id: An integer representing a unique identifier
-CustomerId: An integer representing the customer Id.
-Surname: A string representing the customer’s surname.
-CreditScore: An integer representing the customer’s credit score.
-Geography: A string representing the customer geo location.
-Gender: A string representing the customer’s age.
-Age: A float representing the customer’s age.
-Tenure: An integer representing the number of years the customer has been with the bank.
-Balance: A float representing the customer’s account balance.
-NumOfProducts: An integer representing the number of bank products the customer uses.
-HasCrCard: A float indicating whether the customer has a credit card.
-IsActiveMember: A float indicating whether the customer is an active member.
-EstimatedSalary: A float representing the estimated salary of the customer.
-Exited: An integer indicating whether the customer has exited (1) or not (0). </br></br>
+- id: An integer representing a unique identifier
+- CustomerId: An integer representing the customer Id.
+- Surname: A string representing the customer’s surname.
+- CreditScore: An integer representing the customer’s credit score.
+- Geography: A string representing the customer geo location.
+- Gender: A string representing the customer’s age.
+- Age: A float representing the customer’s age.
+- Tenure: An integer representing the number of years the customer has been with the bank.
+- Balance: A float representing the customer’s account balance.
+- NumOfProducts: An integer representing the number of bank products the customer uses.
+- HasCrCard: A float indicating whether the customer has a credit card.
+- IsActiveMember: A float indicating whether the customer is an active member.
+- EstimatedSalary: A float representing the estimated salary of the customer.
+- Exited: An integer indicating whether the customer has exited (1) or not (0). </br></br>
 
 Credit: Bank Turnover Dataset, TARUN SUNKARANENI, https://www.kaggle.com/code/kmalit/bank-customer-churn-prediction/input
 
@@ -42,7 +42,7 @@ Credit: Bank Turnover Dataset, TARUN SUNKARANENI, https://www.kaggle.com/code/km
 - removing irrelevant columns
 - **checking for null values**
 - Find and remove the null values
-##Feature Engineering
+### Feature Engineering:
 - **Encoding categorical data**
 - Converting categorical data into numerical data
 -perform**Data visualizations**
@@ -55,7 +55,7 @@ Credit: Bank Turnover Dataset, TARUN SUNKARANENI, https://www.kaggle.com/code/km
 - Split the feature and target into Training and test sets
 - **Feature Scaling**
 - Scale numerical features to have a similar range, using Standardization to improve model convergence
-- **Model Building
+- **Model Building**
 - Build a model using algorithms
 - Logistic Regression
 - Decision Tree
