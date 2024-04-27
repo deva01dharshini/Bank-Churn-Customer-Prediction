@@ -38,24 +38,27 @@ Credit: Bank Turnover Dataset, TARUN SUNKARANENI, https://www.kaggle.com/code/km
 - Load the data using pandas read_csv
 - analyse the data
 ### Exploratory data analysis:
- **Data cleaning**
+ ### Data cleaning
  - removing irrelevant columns
- **checking for null values**
+ ### checking for null values**
  - Find and remove the null values
 ### Feature Engineering:
- **Encoding categorical data**
+ ### Encoding categorical data
  - Converting categorical data into numerical data
- **Data visualizations**
+### Data visualizations:
  -Analyse categorical features through count plot
- **Handling the Imbalanced Dataset**
-- Synthetic Minority Oversampling Technique(SMOTE): SMOTE first selects a minority class instance a at random and finds its k nearest minority class neighbors. The synthetic instance is then created by choosing one of the k nearest neighbors b at random and connecting a and b to form a line segment in the feature space. The synthetic instances are generated as a convex combination of the two chosen instances a and b.
-- Get the new set of X and Y sample using SMOTE, the sample contains equal number of both the classes
- **Data splitting** 
+ ### Handling the Imbalanced Dataset
+ - Synthetic Minority Oversampling Technique(SMOTE): SMOTE first selects a minority class instance a at random and finds its 
+  k nearest minority class neighbors. The synthetic instance is then created by choosing one of the k nearest neighbors b at 
+  random and connecting a and b to form a line segment in the feature space. The synthetic instances are generated as a 
+  convex combination of the two chosen instances a and b.
+ - Get the new set of X and Y sample using SMOTE, the sample contains equal number of both the classes
+### Data splitting
  - Split the data into feature and target
  - Split the feature and target into Training and test sets
- **Feature Scaling**
- - Scale numerical features to have a similar range, using Standardization to improve model convergence
- **Model Building**
+### Feature Scaling
+  - Scale numerical features to have a similar range, using Standardization to improve model convergence
+ ### Model Building
  - Build a model using algorithms
  - Logistic Regression
  - Decision Tree
