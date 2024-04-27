@@ -1,9 +1,9 @@
 # Bank-Churn-Customer-Prediction
 ## Task
-Build a machine learning model to identify and predict customers who are likely to leave from a bank..</br>
+ To Build a machine learning model to identify and predict customers who are likely to leave from a bank..</br>
 Tool Used: Python, Google colab
 ## Dataset:
-Dataset is taken from Kaggeles "Bank Turnover Dataset". Dataset contains 10000 different datas with 14 features.
+Dataset is taken from Kaggeles "Bank Customer churn prediction Dataset". Dataset contains 10000 different datas with 14 features.
 - id: An integer representing a unique identifier
 - CustomerId: An integer representing the customer Id.
 - Surname: A string representing the customer’s surname.
@@ -36,17 +36,17 @@ Credit: Bank Turnover Dataset, TARUN SUNKARANENI, https://www.kaggle.com/code/km
 - SMOTE from imblearn.over_sampling
 ### Data Collection and Analysis :
 - Load the data using pandas read_csv
-- analyse the data
+- Analyse the data
 ### Exploratory data analysis:
  ### Data cleaning
- - removing irrelevant columns
- ### checking for null values**
+ - Removing irrelevant columns
+ ### checking for null values
  - Find and remove the null values
 ### Feature Engineering:
  ### Encoding categorical data
  - Converting categorical data into numerical data
 ### Data visualizations:
- -Analyse categorical features through count plot
+ - Analyse categorical features through count plot
  ### Handling the Imbalanced Dataset
  - Synthetic Minority Oversampling Technique(SMOTE): SMOTE first selects a minority class instance a at random and finds its 
   k nearest minority class neighbors. The synthetic instance is then created by choosing one of the k nearest neighbors b at 
